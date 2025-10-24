@@ -4,18 +4,23 @@
 }
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     font-family: Roboto, impact;
 }
 
 body {
-        margin: 0;
+        margin: 0px;
 }
 
 .flex-container-around {
     display: flex;
     justify-content:space-around;
     
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -26,6 +31,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header-links a {
@@ -33,4 +39,28 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     padding: 10px;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 50px;
+}
+
+.hero-texts {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0px;
+    padding: 4px 25px;
 }
