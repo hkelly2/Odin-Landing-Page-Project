@@ -4,26 +4,18 @@
 }
 
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-family: Roboto, impact;
 }
 
 body {
-        margin: 0px;
-}
-
-.flex-container-around {
-    display: flex;
-    justify-content:space-around;
-    
-}
-
-.flex-container-center {
-    display: flex;
-    justify-content: center;
+    margin: 0px;
 }
 
 .header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     background-color: #1F2937;
     padding: 15px;
 }
@@ -42,16 +34,23 @@ body {
 }
 
 .hero {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
     background-color: #1F2937;
-    padding: 50px;
+    padding: 50px 150px;
 }
 
-.hero-texts {
+.hero-left {
+    max-width: 500px;
+}
+
+.hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-h1 {
+.hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
