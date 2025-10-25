@@ -56,6 +56,17 @@ body {
     color: #F9FAF8;
 }
 
+.information {
+    background-color: greenyellow;
+}
+
+.information-title {
+    font-size: 36px;
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
